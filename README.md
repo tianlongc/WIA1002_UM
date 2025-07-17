@@ -6,9 +6,9 @@ This repository contains my solutions for the course WIA1002 Data Structure(DS) 
 ![Last Commit](https://img.shields.io/github/last-commit/tianlongc/WIA1002_UM)
 
 # 🗺️ Navigation
-[![Tutorial](https://img.shields.io/badge/📚-Tutorials-9cf)](https://github.com/tianlongc/WIA1002_UM/tree/main?tab=readme-ov-file#tutorial)
-[![Lab](https://img.shields.io/badge/🔬-Labs-orange)](https://github.com/tianlongc/WIA1002_UM/tree/main?tab=readme-ov-file#lab)
-[![PYQ](https://img.shields.io/badge/📝-Past_Year_Q-yellow)](https://github.com/tianlongc/WIA1002_UM/tree/main?tab=readme-ov-file#past-year-question-2016-sem-2---2025-sem-1)
+[![Tutorial](https://img.shields.io/badge/📖-Tutorials-blue)](https://github.com/tianlongc/WIA1002_UM/tree/main?tab=readme-ov-file#tutorial)
+[![Lab](https://img.shields.io/badge/💻-Lab-orange)](https://github.com/tianlongc/WIA1002_UM/tree/main?tab=readme-ov-file#lab)
+[![PYQ](https://img.shields.io/badge/📝-Past_Year_Question-yellow)](https://github.com/tianlongc/WIA1002_UM/tree/main?tab=readme-ov-file#past-year-question-2016-sem-2---2025-sem-1)
 
 ## 📖 Tutorial
 - [Tutorial 01](https://github.com/tianlongc/WIA1002_UM/blob/main/Tutorial/24068668_WIA1002_Tutorial01.pdf)
@@ -36,7 +36,7 @@ This repository contains my solutions for the course WIA1002 Data Structure(DS) 
 - [Lab 10](https://github.com/tianlongc/WIA1002_UM/tree/main/Lab/Lab%2010)
 - [Lab 11](https://github.com/tianlongc/WIA1002_UM/tree/main/Lab/Lab%2011)
 
-## 📚 Past Year Question
+## 📝 Past Year Question
 HashMap-related questions can be ignored, as they are no longer part of the syllabus — but feel free to try them for your own learning and practice.
 
 ---
