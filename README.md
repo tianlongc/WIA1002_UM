@@ -39,6 +39,8 @@ This repository contains my solutions for the course WIA1002 Data Structure(DS) 
 ## 📚 Past Year Question
 HashMap-related questions can be ignored, as they are no longer part of the syllabus — but feel free to try them for your own learning and practice.
 
+---
+
 ### 📄 Format 1: From-Scratch Implementation of Data Structures (2016 sem 2 - 2020 sem 1)
 > **Common Instruction:**<br>
 > No marks will be given for any implementation using the existing _Data Structure_ class or any other _Collection_ classes available from the Java API Library.
@@ -54,9 +56,13 @@ These past year questions are great for strengthening your foundational understa
 > 💡 **Suggestion:**<br>
 > I recommend starting with array-based implementations since most questions require your custom classes to handle a fixed size limitation. Linked lists are more dynamic, flexible and easier to work with once you have mastered the fundamentals.
 
+---
+
 #### ⭐ Recommended Questions to Try
 - [WIA1002_2_2016 Q2 Stack Bracket Matching](https://github.com/tianlongc/WIA1002_UM/tree/main/PYQ/WIA1002_2_2016/Q2array)
 - [WIA1002_2_2019 Q3 Maze Problem: Stack Backtrack and File Handling](https://github.com/tianlongc/WIA1002_UM/tree/main/PYQ/WIA1002_2_2019/Q3)
+
+---
 
 #### 📁 List of Question Sets
 - [WIA1002_2_2016](https://github.com/tianlongc/WIA1002_UM/tree/main/PYQ/WIA1002_2_2016)
@@ -67,6 +73,8 @@ These past year questions are great for strengthening your foundational understa
 - [WIA1002_2_2019](https://github.com/tianlongc/WIA1002_UM/tree/main/PYQ/WIA1002_2_2019)
 - [WIA1002_1_2020](https://github.com/tianlongc/WIA1002_UM/tree/main/PYQ/WIA1002_1_2020)
 
+---
+
 ### 📄 Format 2: Application-based Questions (2021 sem 2 - 2024 sem 2)
 This format is more similar to WIX1002 Fundamentals of Programming — focused on:
 - Applying logical thinking skills
@@ -75,6 +83,16 @@ This format is more similar to WIX1002 Fundamentals of Programming — focused o
 Unlike Format 1, these questions do not strictly require you to build everything from scratch.
 In fact, some questions explicity allow the use of Java Collection classes like `PriorityQueue`.
 > 💡 This format is great for practicing problem-solving and working with real-world-like input/output scenarios.
+
+---
+
+#### 📁 List of Question Sets
+- WIA1002_2_2021
+- WIA1002_2_2022
+- WIA1002_2_2023
+- WIA1002_2_2024
+
+---
 
 ### 📄 Format 3: Manual Implementation and Application (2025 sem 1)
 Well, this is a closed test paper but the question topics are listed as below:
