@@ -45,9 +45,9 @@ HashMap-related questions can be ignored, as they are no longer part of the syll
 
 These problems emphasize **manual (from-scratch) implementation** of core data structures — without relying on Java's built-in Collection classes e.g. `java.util.Stack`, `java.util.Queue`.
 
-In other words, you are expected to build your own versions of these data structures (creating a custom `Stack` class using arrays or linked lists). 
-<br>These past year questions are great for strengthening your foundational understanding of
+In other words, you are expected to build your own versions of these data structures (creating a custom `Stack` class using arrays or linked lists).
 
+These past year questions are great for strengthening your foundational understanding of
 - **Stacks** using basic array implementation or linked list 
 - **Queues** using circular array implementation or circular linked list
 
