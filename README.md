@@ -68,7 +68,7 @@ These past year questions are great for strengthening your foundational understa
 
 ---
 
-### 📁 List of Question Sets
+#### 📁 List of Question Sets
 
 | Semester     | Link                                                                 |
 |--------------|----------------------------------------------------------------------|
@@ -94,6 +94,12 @@ In fact, some questions explicity allow the use of Java Collection classes like 
 
 ---
 
+#### ⭐ Recommended Questions to Try
+- WIA1002_2_2022 Q6 Full Graph Implementation
+- WIA1002_2_2024 Q42b Graph Adjacency Matrix and Depth-First Search(DFS)
+
+---
+
 #### 📁 List of Question Sets
 
 | Semester     | Link                                                                 |
@@ -111,6 +117,12 @@ Well, this is a closed test paper but the question topics are listed as below:
 - Q2: Queue: Basic circular array implementation and custom Priority Queue implementation
 - Q3: Search and Sort: Insertion Sort and Binary Search with File-handling 
 - Q4: Graph: From-scratch Graph implementation and Stack or Recursion to implement DFS
+
+---
+#### ⚠️ **Sample Question and Answer Link (For Reference Purpose Only)**   
+📂 WIA1002_1_2025
+
+---
 
 # 🤝 Contribution
 Feel free to fork and submit a pull request to improve my content. Thanks!
