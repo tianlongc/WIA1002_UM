@@ -64,14 +64,17 @@ These past year questions are great for strengthening your foundational understa
 
 ---
 
-#### 📁 List of Question Sets
-- [WIA1002_2_2016](https://github.com/tianlongc/WIA1002_UM/tree/main/PYQ/WIA1002_2_2016)
-- [WIA1002_1_2017](https://github.com/tianlongc/WIA1002_UM/tree/main/PYQ/WIA1002_1_2017)
-- [WIA1002_2_2017](https://github.com/tianlongc/WIA1002_UM/tree/main/PYQ/WIA1002_2_2017)
-- [WIA1002_1_2018](https://github.com/tianlongc/WIA1002_UM/tree/main/PYQ/WIA1002_1_2018)
-- [WIA1002_1_2019](https://github.com/tianlongc/WIA1002_UM/tree/main/PYQ/WIA1002_1_2019)
-- [WIA1002_2_2019](https://github.com/tianlongc/WIA1002_UM/tree/main/PYQ/WIA1002_2_2019)
-- [WIA1002_1_2020](https://github.com/tianlongc/WIA1002_UM/tree/main/PYQ/WIA1002_1_2020)
+### 📁 List of Question Sets
+
+| Semester     | Link                                                                 |
+|--------------|----------------------------------------------------------------------|
+| 2016 Sem 2   | [📂 WIA1002_2_2016](https://github.com/tianlongc/WIA1002_UM/tree/main/PYQ/WIA1002_2_2016) |
+| 2017 Sem 1   | [📂 WIA1002_1_2017](https://github.com/tianlongc/WIA1002_UM/tree/main/PYQ/WIA1002_1_2017) |
+| 2017 Sem 2   | [📂 WIA1002_2_2017](https://github.com/tianlongc/WIA1002_UM/tree/main/PYQ/WIA1002_2_2017) |
+| 2018 Sem 1   | [📂 WIA1002_1_2018](https://github.com/tianlongc/WIA1002_UM/tree/main/PYQ/WIA1002_1_2018) |
+| 2019 Sem 1   | [📂 WIA1002_1_2019](https://github.com/tianlongc/WIA1002_UM/tree/main/PYQ/WIA1002_1_2019) |
+| 2019 Sem 2   | [📂 WIA1002_2_2019](https://github.com/tianlongc/WIA1002_UM/tree/main/PYQ/WIA1002_2_2019) |
+| 2020 Sem 1   | [📂 WIA1002_1_2020](https://github.com/tianlongc/WIA1002_UM/tree/main/PYQ/WIA1002_1_2020) |
 
 ---
 
@@ -87,10 +90,13 @@ In fact, some questions explicity allow the use of Java Collection classes like 
 ---
 
 #### 📁 List of Question Sets
-- WIA1002_2_2021
-- WIA1002_2_2022
-- WIA1002_2_2023
-- WIA1002_2_2024
+
+| Semester     | Link                                                                 |
+|--------------|----------------------------------------------------------------------|
+| 2021 Sem 2   | [📂 WIA1002_2_2021](https://github.com/tianlongc/WIA1002_UM/tree/main/PYQ/WIA1002_2_2021) |
+| 2022 Sem 2   | [📂 WIA1002_2_2022](https://github.com/tianlongc/WIA1002_UM/tree/main/PYQ/WIA1002_2_2022) |
+| 2023 Sem 2   | [📂 WIA1002_2_2023](https://github.com/tianlongc/WIA1002_UM/tree/main/PYQ/WIA1002_2_2023) |
+| 2024 Sem 2   | [📂 WIA1002_2_2024](https://github.com/tianlongc/WIA1002_UM/tree/main/PYQ/WIA1002_2_2024) |
 
 ---
 
