@@ -87,6 +87,7 @@ This format is more similar to WIX1002 Fundamentals of Programming(FOP) — focu
 - Applying logical thinking skills
 - File Handling
 - Moderate use of data structures
+
 Unlike Format 1, these questions do not strictly require you to build everything from scratch.
 In fact, some questions explicity allow the use of Java Collection classes like `PriorityQueue`.
 > 💡 This format is great for practicing problem-solving and working with real-world-like input/output scenarios.
