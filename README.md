@@ -54,8 +54,18 @@ These past year questions are great for strengthening your foundational understa
 > 💡 **Suggestion:**<br>
 > I recommend starting with array-based implementations since most questions require your custom classes to handle a fixed size limitation. Linked lists are more dynamic, flexible and easier to work with once you have mastered the fundamentals.
 
-<br>But here's are some exceptions I recommend to try
-- WIA1002_2_2019 Q3 Maze Problem: Stack Backtrack and File Handling
+#### ⭐ Recommended Questions to Try
+- [WIA1002_2_2016 Q2 Stack Bracket Matching](https://github.com/tianlongc/WIA1002_UM/tree/main/PYQ/WIA1002_2_2016/Q2array)
+- [WIA1002_2_2019 Q3 Maze Problem: Stack Backtrack and File Handling](https://github.com/tianlongc/WIA1002_UM/tree/main/PYQ/WIA1002_2_2019/Q3)
+
+#### 📁 List of Question Sets
+- [WIA1002_2_2016](https://github.com/tianlongc/WIA1002_UM/tree/main/PYQ/WIA1002_2_2016)
+- [WIA1002_1_2017](https://github.com/tianlongc/WIA1002_UM/tree/main/PYQ/WIA1002_1_2017)
+- [WIA1002_2_2017](https://github.com/tianlongc/WIA1002_UM/tree/main/PYQ/WIA1002_2_2017)
+- [WIA1002_1_2018](https://github.com/tianlongc/WIA1002_UM/tree/main/PYQ/WIA1002_1_2018)
+- [WIA1002_1_2019](https://github.com/tianlongc/WIA1002_UM/tree/main/PYQ/WIA1002_1_2019)
+- [WIA1002_2_2019](https://github.com/tianlongc/WIA1002_UM/tree/main/PYQ/WIA1002_2_2019)
+- [WIA1002_1_2020](https://github.com/tianlongc/WIA1002_UM/tree/main/PYQ/WIA1002_1_2020)
 
 ### 📄 Format 2: Application-based Questions (2021 sem 2 - 2024 sem 2)
 This format is more similar to WIX1002 Fundamentals of Programming — focused on:
