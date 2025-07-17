@@ -38,7 +38,7 @@ This repository contains my solutions for the course WIA1002 Data Structure(DS) 
 ## Past Year Question
 HashMap-related questions can be ignored, as they are no longer part of the syllabus — but feel free to try them for your own learning and practice.
 
-📚Format 1: From-Scratch Implementation of Data Structures (2016 sem 2 - 2020 sem 1)
+### 📚Format 1: From-Scratch Implementation of Data Structures (2016 sem 2 - 2020 sem 1)
 > **Common Instruction:**<br>
 > No marks will be given for any implementation using the existing _Data Structure_ class or any other _Collection_ classes available from the Java API Library.
 
@@ -56,7 +56,7 @@ In other words, you are expected to build your own versions of these data struct
 <br>But here's are some exceptions I recommend to try
 - WIA1002_2_2019 Q3 Maze Problem: Stack Backtrack and File Handling
 
-📚Format 2: Application-based Questions (2021 sem 2 - 2024 sem 2)
+### 📚Format 2: Application-based Questions (2021 sem 2 - 2024 sem 2)
 This format is more similar to WIX1002 Fundamentals of Programming — focused on:
 - Applying logical thinking skills
 - File Handling
@@ -65,12 +65,12 @@ Unlike Format 1, these questions do not strictly require you to build everything
 In fact, some questions explicity allow the use of Java Collection classes like `PriorityQueue`.
 > 💡 This format is great for practicing problem-solving and working with real-world-like input/output scenarios.
 
-📚Format 3: Manual Implementation and Application (2025 sem 1)
+### 📚Format 3: Manual Implementation and Application (2025 sem 1)
 Well, this is a closed test paper but the question topics are listed as below:
 - Q1: Linked List: Singly Linked List and Doubly Linked List
 - Q2: Queue: Basic circular array implementation and custom Priority Queue implementation
 - Q3: Search and Sort: Insertion Sort and Binary Search with File-handling 
-- Q4: Graph: Full Graph from-stratch implementation and Stack or Recursion to implement DFS
+- Q4: Graph: From-scratch Graph implementation and Stack or Recursion to implement DFS
 
 # Contribution
 Feel free to fork and submit a pull request to improve my content. Thanks!
