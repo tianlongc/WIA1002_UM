@@ -59,8 +59,12 @@ These past year questions are great for strengthening your foundational understa
 ---
 
 #### ⭐ Recommended Questions to Try
-- [WIA1002_2_2016 Q2 Stack Bracket Matching](https://github.com/tianlongc/WIA1002_UM/tree/main/PYQ/WIA1002_2_2016/Q2array)
-- [WIA1002_2_2019 Q3 Maze Problem: Stack Backtrack and File Handling](https://github.com/tianlongc/WIA1002_UM/tree/main/PYQ/WIA1002_2_2019/Q3)
+- [WIA1002_2_2016 Q2 Bracket Matching using Array Stack and File Handling](https://github.com/tianlongc/WIA1002_UM/tree/main/PYQ/WIA1002_2_2016/Q2array)
+- [WIA1002_1_2017 Q3 Reversing a String using Array Stack](https://github.com/tianlongc/WIA1002_UM/tree/main/PYQ/WIA1002_1_2017/Q3)
+- [WIA1002_2_2019 Q3 Maze Backtracking using Linked List Stack and File Handling](https://github.com/tianlongc/WIA1002_UM/tree/main/PYQ/WIA1002_2_2019/Q3)
+- [WIA1002_1_2020 Q1 Generic Stack using Array](https://github.com/tianlongc/WIA1002_UM/blob/main/PYQ/WIA1002_1_2020/Q1/GenericStack.java)
+- [WIA1002_2_2020 Q2 Generic Queue using Circular Array](https://github.com/tianlongc/WIA1002_UM/blob/main/PYQ/WIA1002_1_2020/Q2/GenericQueue.java)
+- [WIA1002_2_2020 Q2 Generic Queue using Circular Linked List](https://github.com/tianlongc/WIA1002_UM/blob/main/PYQ/WIA1002_1_2020/Q2CLL/GenericQueue.java)
 
 ---
 
@@ -79,7 +83,7 @@ These past year questions are great for strengthening your foundational understa
 ---
 
 ### 📄 Format 2: Application-based Questions (2021 sem 2 - 2024 sem 2)
-This format is more similar to WIX1002 Fundamentals of Programming — focused on:
+This format is more similar to WIX1002 Fundamentals of Programming(FOP) — focused on:
 - Applying logical thinking skills
 - File Handling
 - Moderate use of data structures
