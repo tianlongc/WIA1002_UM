@@ -6,8 +6,8 @@ This repository contains my solutions for the course WIA1002 Data Structure(DS) 
 ![Last Commit](https://img.shields.io/github/last-commit/tianlongc/WIA1002_UM)
 
 # 🗺️ Navigation
-[![Tutorial](https://img.shields.io/badge/📖-Tutorials-blue)](https://github.com/tianlongc/WIA1002_UM?tab=readme-ov-file#-course-outline)
-[![Lab](https://img.shields.io/badge/💻-Lab-orange)](https://github.com/tianlongc/WIA1002_UM?tab=readme-ov-file#-course-outline)
+[![Tutorial](https://img.shields.io/badge/📖-Tutorials-blue)](https://github.com/tianlongc/WIA1002_UM?tab=readme-ov-file#%EF%B8%8F-course-outline)
+[![Lab](https://img.shields.io/badge/💻-Lab-orange)](https://github.com/tianlongc/WIA1002_UM?tab=readme-ov-file#%EF%B8%8F-course-outline)
 [![PYQ](https://img.shields.io/badge/📝-Past_Year_Question-yellow)](https://github.com/tianlongc/WIA1002_UM?tab=readme-ov-file#-lab)
 
 ## 🗂️ Course Outline
