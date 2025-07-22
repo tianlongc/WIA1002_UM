@@ -1,0 +1,18 @@
+a)
+                           40
+                        /      \
+                       /         \
+                     26          45
+                    / \          /
+                   18  32       43
+                        \       /
+                        34    41
+                         \
+                         38
+
+b) preorder  + 1 2 (Depth-first Search)
+    = 40 26 18 32 34 38 45 43 41
+   inorder   1 + 2 (always ascending order)
+    = 18 26 32 34 38 40 41 43 45
+   postorder 1 2 + (root node always last)
+    = 18 38 34 32 26 41 43 45 40

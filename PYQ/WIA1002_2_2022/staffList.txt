@@ -1,0 +1,11 @@
+Staff ID|Staff Name	|Position
+1	|Luke Skywalker	|Manager
+2	|Han Solo	|Supervisor
+6	|Moff Tarkin	|Assistant
+8	|Obi Wan	|Assistant
+9	|Organa		|Assistant
+12	|Leia Organa	|Supervisor
+15	|Chewbacca	|Assistant
+16	|Uncle Owen	|Assistant
+17	|Aunt Beru	|Assistant
+19	|Lando Calrissian|Assistant
