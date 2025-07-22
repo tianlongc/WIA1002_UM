@@ -6,35 +6,26 @@ This repository contains my solutions for the course WIA1002 Data Structure(DS) 
 ![Last Commit](https://img.shields.io/github/last-commit/tianlongc/WIA1002_UM)
 
 # 🗺️ Navigation
-[![Tutorial](https://img.shields.io/badge/📖-Tutorials-blue)](https://github.com/tianlongc/WIA1002_UM?tab=readme-ov-file#-tutorial)
-[![Lab](https://img.shields.io/badge/💻-Lab-orange)](https://github.com/tianlongc/WIA1002_UM?tab=readme-ov-file#-lab)
+[![Tutorial](https://img.shields.io/badge/📖-Tutorials-blue)](https://github.com/tianlongc/WIA1002_UM?tab=readme-ov-file#-course-outline)
+[![Lab](https://img.shields.io/badge/💻-Lab-orange)](https://github.com/tianlongc/WIA1002_UM?tab=readme-ov-file#-course-outline)
 [![PYQ](https://img.shields.io/badge/📝-Past_Year_Question-yellow)](https://github.com/tianlongc/WIA1002_UM?tab=readme-ov-file#-lab)
 
-## 📖 Tutorial
-- [Tutorial 01](https://github.com/tianlongc/WIA1002_UM/blob/main/Tutorial/24068668_WIA1002_Tutorial01.pdf)
-- [Tutorial 02](https://github.com/tianlongc/WIA1002_UM/blob/main/Tutorial/24068668_WIA1002_Tutorial02.pdf)
-- [Tutorial 03](https://github.com/tianlongc/WIA1002_UM/blob/main/Tutorial/24068668_WIA1002_Tutorial03.pdf)
-- [Tutorial 04](https://github.com/tianlongc/WIA1002_UM/blob/main/Tutorial/24068668_WIA1002_Tutorial04.pdf)
-- [Tutorial 05](https://github.com/tianlongc/WIA1002_UM/blob/main/Tutorial/24068668_WIA1002_Tutorial05.pdf)
-- [Tutorial 06](https://github.com/tianlongc/WIA1002_UM/blob/main/Tutorial/24068668_WIA1002_Tutorial06.pdf)
-- [Tutorial 07](https://github.com/tianlongc/WIA1002_UM/blob/main/Tutorial/24068668_WIA1002_Tutorial07.pdf)
-- [Tutorial 08](https://github.com/tianlongc/WIA1002_UM/blob/main/Tutorial/24068668_WIA1002_Tutorial08.pdf)
-- [Tutorial 09](https://github.com/tianlongc/WIA1002_UM/blob/main/Tutorial/24068668_WIA1002_Tutorial09.pdf)
-- [Tutorial 10](https://github.com/tianlongc/WIA1002_UM/blob/main/Tutorial/24068668_WIA1002_Tutorial10.pdf)
-- [Tutorial 11](https://github.com/tianlongc/WIA1002_UM/blob/main/Tutorial/24068668_WIA1002_Tutorial11.pdf)
+## 🗂️ Course Outline
 
-## 💻 Lab
-- [Lab 01](https://github.com/tianlongc/WIA1002_UM/tree/main/Lab/Lab%2001)
-- [Lab 02](https://github.com/tianlongc/WIA1002_UM/tree/main/Lab/Lab%2002)
-- [Lab 03](https://github.com/tianlongc/WIA1002_UM/tree/main/Lab/Lab%2003)
-- [Lab 04](https://github.com/tianlongc/WIA1002_UM/tree/main/Lab/Lab%2004)
-- [Lab 05](https://github.com/tianlongc/WIA1002_UM/tree/main/Lab/Lab%2005)
-- [Lab 06](https://github.com/tianlongc/WIA1002_UM/tree/main/Lab/Lab%2006)
-- [Lab 07](https://github.com/tianlongc/WIA1002_UM/tree/main/Lab/Lab%2007)
-- [Lab 08](https://github.com/tianlongc/WIA1002_UM/tree/main/Lab/Lab%2008)
-- [Lab 09](https://github.com/tianlongc/WIA1002_UM/tree/main/Lab/Lab%2009)
-- [Lab 10](https://github.com/tianlongc/WIA1002_UM/tree/main/Lab/Lab%2010)
-- [Lab 11](https://github.com/tianlongc/WIA1002_UM/tree/main/Lab/Lab%2011)
+| Topic                            | Tutorial                                                                                          | Lab                                                                                 |
+|----------------------------------|---------------------------------------------------------------------------------------------------|--------------------------------------------------------------------------------------|
+| Object-Oriented Programming (OOP) | [Tutorial 01](https://github.com/tianlongc/WIA1002_UM/blob/main/Tutorial/24068668_WIA1002_Tutorial01.pdf) | [Lab 01](https://github.com/tianlongc/WIA1002_UM/tree/main/Lab/Lab%2001)           |
+| Generics                         | [Tutorial 02](https://github.com/tianlongc/WIA1002_UM/blob/main/Tutorial/24068668_WIA1002_Tutorial02.pdf) | [Lab 02](https://github.com/tianlongc/WIA1002_UM/tree/main/Lab/Lab%2002)            |
+| ADT and Bag                      | [Tutorial 03](https://github.com/tianlongc/WIA1002_UM/blob/main/Tutorial/24068668_WIA1002_Tutorial03.pdf) | [Lab 03](https://github.com/tianlongc/WIA1002_UM/tree/main/Lab/Lab%2003)            |
+| Singly Linked List               | [Tutorial 04](https://github.com/tianlongc/WIA1002_UM/blob/main/Tutorial/24068668_WIA1002_Tutorial04.pdf) | [Lab 04](https://github.com/tianlongc/WIA1002_UM/tree/main/Lab/Lab%2004)            |
+| Doubly Linked List              | [Tutorial 05](https://github.com/tianlongc/WIA1002_UM/blob/main/Tutorial/24068668_WIA1002_Tutorial05.pdf) | [Lab 05](https://github.com/tianlongc/WIA1002_UM/tree/main/Lab/Lab%2005)             |
+| Stack                            | [Tutorial 06](https://github.com/tianlongc/WIA1002_UM/blob/main/Tutorial/24068668_WIA1002_Tutorial06.pdf) | [Lab 06](https://github.com/tianlongc/WIA1002_UM/tree/main/Lab/Lab%2006)            |
+| Queue                            | [Tutorial 07](https://github.com/tianlongc/WIA1002_UM/blob/main/Tutorial/24068668_WIA1002_Tutorial07.pdf) | [Lab 07](https://github.com/tianlongc/WIA1002_UM/tree/main/Lab/Lab%2007/L7)         |
+| Priority Queue                   | [Tutorial 07b](https://github.com/tianlongc/WIA1002_UM/blob/main/Tutorial/24068668_WIA1002_Tutorial07b.pdf) | [Lab 07b](https://github.com/tianlongc/WIA1002_UM/tree/main/Lab/Lab%2007/L7b)       |
+| Graph                            | [Tutorial 08](https://github.com/tianlongc/WIA1002_UM/blob/main/Tutorial/24068668_WIA1002_Tutorial08.pdf) | [Lab 08](https://github.com/tianlongc/WIA1002_UM/tree/main/Lab/Lab%2008)            |
+| Recursion                        | [Tutorial 09](https://github.com/tianlongc/WIA1002_UM/blob/main/Tutorial/24068668_WIA1002_Tutorial09.pdf) | [Lab 09](https://github.com/tianlongc/WIA1002_UM/tree/main/Lab/Lab%2009)            |
+| Search and Sort                  | [Tutorial 10](https://github.com/tianlongc/WIA1002_UM/blob/main/Tutorial/24068668_WIA1002_Tutorial10.pdf) | [Lab 10](https://github.com/tianlongc/WIA1002_UM/tree/main/Lab/Lab%2010)            |
+| Binary Search Tree (BST)         | [Tutorial 11](https://github.com/tianlongc/WIA1002_UM/blob/main/Tutorial/24068668_WIA1002_Tutorial11.pdf) | [Lab 11](https://github.com/tianlongc/WIA1002_UM/tree/main/Lab/Lab%2011)            |
 
 ## 📝 Past Year Question
 HashMap-related questions can be ignored, as they are no longer part of the syllabus — but feel free to try them for your own learning and practice.
