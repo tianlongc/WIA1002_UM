@@ -10,8 +10,8 @@ package Q2;
  */
 
 /*
-    Generate random combination of 1 Character + 8 Digit follow the format SNNNNNNNN
-    by stimulating the queue and priority queue
+    Question (c): Generate random combination of 1 Character + 8 Digit follow the format SNNNNNNNN
+                  by stimulating the queue and priority queue
 */
 
 import java.util.Random;
