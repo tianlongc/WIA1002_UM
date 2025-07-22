@@ -83,20 +83,24 @@ These past year questions are great for strengthening your foundational understa
 ---
 
 ### 📄 Format 2: Application-based Questions (2021 sem 2 - 2024 sem 2)
-This format is more similar to WIX1002 Fundamentals of Programming(FOP) — focused on:
+This format is more similar to [WIX1002 Fundamentals of Programming(FOP)](https://github.com/tianlongc/WIX1002_UM/tree/main) — focused on:
 - Applying logical thinking skills
 - File Handling
 - Moderate use of data structures
 
 Unlike Format 1, these questions do not strictly require you to build everything from scratch.
 In fact, some questions explicity allow the use of Java Collection classes like `PriorityQueue`.
-> 💡 This format is great for practicing problem-solving and working with real-world-like input/output scenarios.
+> 🧠 This format is great for practicing problem-solving and working with real-world-like input/output scenarios.
 
 ---
 
 #### ⭐ Recommended Questions to Try
-- WIA1002_2_2022 Q6 Full Graph Implementation
-- WIA1002_2_2024 Q42b Graph Adjacency Matrix and Depth-First Search(DFS)
+- [WIA1002_2_2022 Q6 Full Linked List Graph Implementation](https://github.com/tianlongc/WIA1002_UM/tree/main/PYQ/WIA1002_2_2022/Q6)
+- [WIA1002_2_2024 Q42b Graph Adjacency Matrix and Depth-First Search(DFS)](https://github.com/tianlongc/WIA1002_UM/tree/main/PYQ/WIA1002_2_2024/Q42b)
+- [WIA1002_2_2025 Q4 Full ArrayList Graph Implementation](https://github.com/tianlongc/WIA1002_UM/tree/main/PYQ/WIA1002_2_2025/Q4)
+
+> 💡 **Suggestion:**<br>
+> In most textbooks and lectures, adjacency lists in graph are commonly implemented using `LinkedList`. However, for exams, I generally prefer using `ArrayList` for its simplicity and ease of implementation. It makes the code faster to write and debug — ideal for exams or quick from-scratch implementations. That said, both approaches are valid — feel free to use whatever works best for you!
 
 ---
 
@@ -111,16 +115,20 @@ In fact, some questions explicity allow the use of Java Collection classes like 
 
 ---
 
-### 📄 Format 3: Manual Implementation and Application (2025 sem 2)
-Well, this is a closed test paper but the question topics are listed as below:
-- Q1: Linked List: Singly Linked List and Doubly Linked List
-- Q2: Queue: Basic circular array implementation and custom Priority Queue implementation
-- Q3: Search and Sort: Insertion Sort and Binary Search with File-handling 
-- Q4: Graph: From-scratch Graph implementation and Stack or Recursion to implement DFS
+### 📄 Format 3: Self-built Implementation and Application (2025 sem 2)
+This is a closed test paper but the question topics are listed as below:
+| Question | Topic                            | Subtopics / Focus Areas                                      |
+|----------|----------------------------------|---------------------------------------------------------------|
+| Q1       | Linked List                      | Singly Linked List, Doubly Linked List                        |
+| Q2       | Queue                            | Circular Array Implementation, Custom Priority Queue          |
+| Q3       | Search and Sort    | Insertion Sort, Binary Search, File-Handling (Read File)      |
+| Q4       | Graph                     | From-scratch Graph Implementation, DFS using Stack/Recursion |
 
 ---
 #### ⚠️ **Sample Question and Answer Link (For Reference Purpose Only)**   
-📂 WIA1002_2_2025
+| Semester     | Link                                                                 |
+|--------------|----------------------------------------------------------------------|
+| 2025 Sem 2   |[📂 WIA1002_2_2025](https://github.com/tianlongc/WIA1002_UM/tree/main/PYQ/WIA1002_2_2025) |
 
 ---
 
