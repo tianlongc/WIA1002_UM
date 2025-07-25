@@ -6,16 +6,16 @@ This repository contains my solutions for the course WIA1002 Data Structure(DS) 
 ![Last Commit](https://img.shields.io/github/last-commit/tianlongc/WIA1002_UM)
 
 # 🗺️ Navigation
-[![Tutorial](https://img.shields.io/badge/📖-Tutorials-blue)](https://github.com/tianlongc/WIA1002_UM?tab=readme-ov-file#%EF%B8%8F-course-outline)
-[![Lab](https://img.shields.io/badge/💻-Lab-orange)](https://github.com/tianlongc/WIA1002_UM?tab=readme-ov-file#%EF%B8%8F-course-outline)
-[![PYQ](https://img.shields.io/badge/📝-Past_Year_Question-yellow)](https://github.com/tianlongc/WIA1002_UM?tab=readme-ov-file#-past-year-question)
+[![Tutorial](https://img.shields.io/badge/📖-Tutorials-blue)](?tab=readme-ov-file#%EF%B8%8F-course-outline)
+[![Lab](https://img.shields.io/badge/💻-Lab-orange)](?tab=readme-ov-file#%EF%B8%8F-course-outline)
+[![PYQ](https://img.shields.io/badge/📝-Past_Year_Question-yellow)](?tab=readme-ov-file#-past-year-question)
 
 ## 🗂️ Course Outline
 
 | Topic                            | Tutorial                                                                                          | Lab                                                                                 |
 |----------------------------------|---------------------------------------------------------------------------------------------------|--------------------------------------------------------------------------------------|
-| Object-Oriented Programming (OOP) | [Tutorial 01](https://github.com/tianlongc/WIA1002_UM/blob/main/Tutorial/24068668_WIA1002_Tutorial01.pdf) | [Lab 01](https://github.com/tianlongc/WIA1002_UM/tree/main/Lab/Lab%2001)           |
-| Generics                         | [Tutorial 02](https://github.com/tianlongc/WIA1002_UM/blob/main/Tutorial/24068668_WIA1002_Tutorial02.pdf) | [Lab 02](https://github.com/tianlongc/WIA1002_UM/tree/main/Lab/Lab%2002)            |
+| Object-Oriented Programming (OOP) | [Tutorial 01](Tutorial/24068668_WIA1002_Tutorial01.pdf) | [Lab 01](https://github.com/tianlongc/WIA1002_UM/tree/main/Lab/Lab%2001)           |
+| Generics                         | [Tutorial 02](Tutorial/24068668_WIA1002_Tutorial02.pdf) | [Lab 02](https://github.com/tianlongc/WIA1002_UM/tree/main/Lab/Lab%2002)            |
 | ADT and Bag                      | [Tutorial 03](https://github.com/tianlongc/WIA1002_UM/blob/main/Tutorial/24068668_WIA1002_Tutorial03.pdf) | [Lab 03](https://github.com/tianlongc/WIA1002_UM/tree/main/Lab/Lab%2003)            |
 | Singly Linked List               | [Tutorial 04](https://github.com/tianlongc/WIA1002_UM/blob/main/Tutorial/24068668_WIA1002_Tutorial04.pdf) | [Lab 04](https://github.com/tianlongc/WIA1002_UM/tree/main/Lab/Lab%2004)            |
 | Doubly Linked List              | [Tutorial 05](https://github.com/tianlongc/WIA1002_UM/blob/main/Tutorial/24068668_WIA1002_Tutorial05.pdf) | [Lab 05](https://github.com/tianlongc/WIA1002_UM/tree/main/Lab/Lab%2005)             |
@@ -50,31 +50,31 @@ These past year questions are great for strengthening your foundational understa
 ---
 
 #### ⭐ Recommended Questions to Try
-- [WIA1002_2_2016 Q2 Bracket Matching using Array Stack and File Handling](https://github.com/tianlongc/WIA1002_UM/tree/main/PYQ/WIA1002_2_2016/Q2array)
-- [WIA1002_1_2017 Q3 Reversing a String using Array Stack](https://github.com/tianlongc/WIA1002_UM/tree/main/PYQ/WIA1002_1_2017/Q3)
-- [WIA1002_2_2019 Q3 Maze Backtracking using Linked List Stack and File Handling](https://github.com/tianlongc/WIA1002_UM/tree/main/PYQ/WIA1002_2_2019/Q3)
-- [WIA1002_1_2020 Q1 Generic Stack using Array](https://github.com/tianlongc/WIA1002_UM/blob/main/PYQ/WIA1002_1_2020/Q1/GenericStack.java)
-- [WIA1002_2_2020 Q2 Generic Queue using Circular Array](https://github.com/tianlongc/WIA1002_UM/blob/main/PYQ/WIA1002_1_2020/Q2/GenericQueue.java)
-- [WIA1002_2_2020 Q2 Generic Queue using Circular Linked List](https://github.com/tianlongc/WIA1002_UM/blob/main/PYQ/WIA1002_1_2020/Q2CLL/GenericQueue.java)
+- [WIA1002_2_2016 Q2 Bracket Matching using Array Stack and File Handling](PYQ/WIA1002_2_2016/Q2array)
+- [WIA1002_1_2017 Q3 Reversing a String using Array Stack](PYQ/WIA1002_1_2017/Q3)
+- [WIA1002_2_2019 Q3 Maze Backtracking using Linked List Stack and File Handling](PYQ/WIA1002_2_2019/Q3)
+- [WIA1002_1_2020 Q1 Generic Stack using Array](PYQ/WIA1002_1_2020/Q1/GenericStack.java)
+- [WIA1002_2_2020 Q2 Generic Queue using Circular Array](PYQ/WIA1002_1_2020/Q2/GenericQueue.java)
+- [WIA1002_2_2020 Q2 Generic Queue using Circular Linked List](PYQ/WIA1002_1_2020/Q2CLL/GenericQueue.java)
 
 ---
 
 #### 📁 List of Question Sets
 
-| Semester     | Link                                                                 |
-|--------------|----------------------------------------------------------------------|
-| 2016 Sem 2   | [📂 WIA1002_2_2016](https://github.com/tianlongc/WIA1002_UM/tree/main/PYQ/WIA1002_2_2016) |
-| 2017 Sem 1   | [📂 WIA1002_1_2017](https://github.com/tianlongc/WIA1002_UM/tree/main/PYQ/WIA1002_1_2017) |
-| 2017 Sem 2   | [📂 WIA1002_2_2017](https://github.com/tianlongc/WIA1002_UM/tree/main/PYQ/WIA1002_2_2017) |
-| 2018 Sem 1   | [📂 WIA1002_1_2018](https://github.com/tianlongc/WIA1002_UM/tree/main/PYQ/WIA1002_1_2018) |
-| 2019 Sem 1   | [📂 WIA1002_1_2019](https://github.com/tianlongc/WIA1002_UM/tree/main/PYQ/WIA1002_1_2019) |
-| 2019 Sem 2   | [📂 WIA1002_2_2019](https://github.com/tianlongc/WIA1002_UM/tree/main/PYQ/WIA1002_2_2019) |
-| 2020 Sem 1   | [📂 WIA1002_1_2020](https://github.com/tianlongc/WIA1002_UM/tree/main/PYQ/WIA1002_1_2020) |
+| Semester     | Link                                     |
+|--------------|------------------------------------------|
+| 2016 Sem 2   | [📂 WIA1002_2_2016](PYQ/WIA1002_2_2016) |
+| 2017 Sem 1   | [📂 WIA1002_1_2017](PYQ/WIA1002_1_2017) |
+| 2017 Sem 2   | [📂 WIA1002_2_2017](PYQ/WIA1002_2_2017) |
+| 2018 Sem 1   | [📂 WIA1002_1_2018](PYQ/WIA1002_1_2018) |
+| 2019 Sem 1   | [📂 WIA1002_1_2019](PYQ/WIA1002_1_2019) |
+| 2019 Sem 2   | [📂 WIA1002_2_2019](PYQ/WIA1002_2_2019) |
+| 2020 Sem 1   | [📂 WIA1002_1_2020](PYQ/WIA1002_1_2020) |
 
 ---
 
 ### 📄 Format 2: Application-based Questions (2021 sem 2 - 2024 sem 2)
-This format is more similar to [WIX1002 Fundamentals of Programming(FOP)](https://github.com/tianlongc/WIX1002_UM/tree/main) — focused on:
+This format is more similar to [WIX1002 Fundamentals of Programming(FOP)](https://github.com/tianlongc/WIX1002_UM/) — focused on:
 - Applying logical thinking skills
 - File Handling
 - Moderate use of data structures
@@ -86,9 +86,9 @@ In fact, some questions explicity allow the use of Java Collection classes like 
 ---
 
 #### ⭐ Recommended Questions to Try
-- [WIA1002_2_2022 Q6 Full Linked List Graph Implementation](https://github.com/tianlongc/WIA1002_UM/tree/main/PYQ/WIA1002_2_2022/Q6)
-- [WIA1002_2_2024 Q42b Graph Adjacency Matrix and Depth-First Search(DFS)](https://github.com/tianlongc/WIA1002_UM/tree/main/PYQ/WIA1002_2_2024/Q42b)
-- [WIA1002_2_2025 Q4 Full ArrayList Graph Implementation](https://github.com/tianlongc/WIA1002_UM/tree/main/PYQ/WIA1002_2_2025/Q4)
+- [WIA1002_2_2022 Q6 Full Linked List Graph Implementation](PYQ/WIA1002_2_2022/Q6)
+- [WIA1002_2_2024 Q42b Graph Adjacency Matrix and Depth-First Search(DFS)](PYQ/WIA1002_2_2024/Q42b)
+- [WIA1002_2_2025 Q4 Full ArrayList Graph Implementation](PYQ/WIA1002_2_2025/Q4)
 
 > 💡 **Suggestion:**<br>
 > In most textbooks and lectures, adjacency lists in graph are commonly implemented using `LinkedList`. However, for exams, I generally prefer using `ArrayList` for its simplicity and ease of implementation. It makes the code faster to write and debug — ideal for exams or quick from-scratch implementations. That said, both approaches are valid — feel free to use whatever works best for you!
@@ -97,12 +97,12 @@ In fact, some questions explicity allow the use of Java Collection classes like 
 
 #### 📁 List of Question Sets
 
-| Semester     | Link                                                                 |
-|--------------|----------------------------------------------------------------------|
-| 2021 Sem 2   | [📂 WIA1002_2_2021](https://github.com/tianlongc/WIA1002_UM/tree/main/PYQ/WIA1002_2_2021) |
-| 2022 Sem 2   | [📂 WIA1002_2_2022](https://github.com/tianlongc/WIA1002_UM/tree/main/PYQ/WIA1002_2_2022) |
-| 2023 Sem 2   | [📂 WIA1002_2_2023](https://github.com/tianlongc/WIA1002_UM/tree/main/PYQ/WIA1002_2_2023) |
-| 2024 Sem 2   | [📂 WIA1002_2_2024](https://github.com/tianlongc/WIA1002_UM/tree/main/PYQ/WIA1002_2_2024) |
+| Semester     | Link                                     |
+|--------------|------------------------------------------|
+| 2021 Sem 2   | [📂 WIA1002_2_2021](PYQ/WIA1002_2_2021) |
+| 2022 Sem 2   | [📂 WIA1002_2_2022](PYQ/WIA1002_2_2022) |
+| 2023 Sem 2   | [📂 WIA1002_2_2023](PYQ/WIA1002_2_2023) |
+| 2024 Sem 2   | [📂 WIA1002_2_2024](PYQ/WIA1002_2_2024) |
 
 ---
 
@@ -112,14 +112,14 @@ This is a closed test paper but the question topics are listed as below:
 |----------|----------------------------------|---------------------------------------------------------------|
 | Q1       | Linked List                      | Singly Linked List, Doubly Linked List                        |
 | Q2       | Queue                            | Circular Array Implementation, Custom Priority Queue          |
-| Q3       | Search and Sort    | Insertion Sort, Binary Search, File-Handling (Read File)      |
-| Q4       | Graph                     | From-scratch Graph Implementation, DFS using Stack/Recursion |
+| Q3       | Search and Sort                  | Insertion Sort, Binary Search, File-Handling (Read File)      |
+| Q4       | Graph                            | From-scratch Graph Implementation, DFS using Stack/Recursion |
 
 ---
 #### ⚠️ **Sample Question and Answer Link (For Reference Purpose Only)**   
 | Semester     | Link                                                                 |
 |--------------|----------------------------------------------------------------------|
-| 2025 Sem 2   |[📂 WIA1002_2_2025](https://github.com/tianlongc/WIA1002_UM/tree/main/PYQ/WIA1002_2_2025) |
+| 2025 Sem 2   |[📂 WIA1002_2_2025](/PYQ/WIA1002_2_2025) |
 
 ---
 
@@ -127,7 +127,7 @@ This is a closed test paper but the question topics are listed as below:
 Feel free to fork and submit a pull request to improve my content. Thanks!
 
 # 🧷 References 
-Deep Apologies! Sorry that I can't remember all of the names of senior that help me throughout this course but here are the repositories I usually refer to
+Deep Apologies! Sorry that I can't remember all of the names of seniors that help me throughout this course but here are the repositories I usually refer to
 - https://github.com/LimJY03/WIA1002_UM
 - https://github.com/szeyu/WIA1002-Collections
 - https://github.com/The-Missing-UMCS/UM-WIA1002
