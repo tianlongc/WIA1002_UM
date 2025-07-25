@@ -92,9 +92,9 @@ In fact, some questions explicity allow the use of Java Collection classes like 
 #### ⭐ Recommended Questions to Try
 | Semester    | Question                                             | Concepts used               | Link                                                                |
 |-------------|------------------------------------------------------|-----------------------------|---------------------------------------------------------------------|
-| 2016 sem 2  | Full Graph Implementation                            | `Linked List`               | [WIA1002_2_2022 Q6](PYQ/WIA1002_2_2022/Q6)                         |
-| 2017 sem 1  | Graph Adjacency Matrix and Depth-First Search(DFS)   | `Array`<br>`Recursion`      | [WIA1002_2_2024 Q42b](PYQ/WIA1002_2_2024/Q42b)                      |
-| 2019 sem 2  | Full Graph Implementation                            | `ArrayList`                 | [WIA1002_2_2025 Q4](PYQ/WIA1002_2_2025/Q4)                          |
+| 2022 sem 2  | Full Graph Implementation                            | `Linked List`               | [WIA1002_2_2022 Q6](PYQ/WIA1002_2_2022/Q6)                         |
+| 2024 sem 2  | Graph Adjacency Matrix and Depth-First Search(DFS)   | `Array`<br>`Recursion`      | [WIA1002_2_2024 Q42b](PYQ/WIA1002_2_2024/Q42b)                      |
+| 2025 sem 2  | Full Graph Implementation                            | `ArrayList`                 | [WIA1002_2_2025 Q4](PYQ/WIA1002_2_2025/Q4)                          |
 
 > 💡 **Suggestion:**<br>
 > In most textbooks and lectures, adjacency lists in graph are commonly implemented using `LinkedList`. However, for exams, I generally prefer using `ArrayList` for its simplicity and ease of implementation. It makes the code faster to write and debug — ideal for exams or quick from-scratch implementations. That said, both approaches are valid — feel free to use whatever works best for you!
