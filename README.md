@@ -12,20 +12,20 @@ This repository contains my solutions for the course WIA1002 Data Structure(DS) 
 
 ## 🗂️ Course Outline
 
-| Topic                            | Tutorial                                                                                          | Lab                                                                                 |
-|----------------------------------|---------------------------------------------------------------------------------------------------|--------------------------------------------------------------------------------------|
-| Object-Oriented Programming (OOP) | [Tutorial 01](Tutorial/24068668_WIA1002_Tutorial01.pdf) | [Lab 01](https://github.com/tianlongc/WIA1002_UM/tree/main/Lab/Lab%2001)           |
-| Generics                         | [Tutorial 02](Tutorial/24068668_WIA1002_Tutorial02.pdf) | [Lab 02](https://github.com/tianlongc/WIA1002_UM/tree/main/Lab/Lab%2002)            |
-| ADT and Bag                      | [Tutorial 03](https://github.com/tianlongc/WIA1002_UM/blob/main/Tutorial/24068668_WIA1002_Tutorial03.pdf) | [Lab 03](https://github.com/tianlongc/WIA1002_UM/tree/main/Lab/Lab%2003)            |
-| Singly Linked List               | [Tutorial 04](https://github.com/tianlongc/WIA1002_UM/blob/main/Tutorial/24068668_WIA1002_Tutorial04.pdf) | [Lab 04](https://github.com/tianlongc/WIA1002_UM/tree/main/Lab/Lab%2004)            |
-| Doubly Linked List              | [Tutorial 05](https://github.com/tianlongc/WIA1002_UM/blob/main/Tutorial/24068668_WIA1002_Tutorial05.pdf) | [Lab 05](https://github.com/tianlongc/WIA1002_UM/tree/main/Lab/Lab%2005)             |
-| Stack                            | [Tutorial 06](https://github.com/tianlongc/WIA1002_UM/blob/main/Tutorial/24068668_WIA1002_Tutorial06.pdf) | [Lab 06](https://github.com/tianlongc/WIA1002_UM/tree/main/Lab/Lab%2006)            |
-| Queue                            | [Tutorial 07](https://github.com/tianlongc/WIA1002_UM/blob/main/Tutorial/24068668_WIA1002_Tutorial07.pdf) | [Lab 07](https://github.com/tianlongc/WIA1002_UM/tree/main/Lab/Lab%2007/L7)         |
-| Priority Queue                   | [Tutorial 07b](https://github.com/tianlongc/WIA1002_UM/blob/main/Tutorial/24068668_WIA1002_Tutorial07b.pdf) | [Lab 07b](https://github.com/tianlongc/WIA1002_UM/tree/main/Lab/Lab%2007/L7b)       |
-| Graph                            | [Tutorial 08](https://github.com/tianlongc/WIA1002_UM/blob/main/Tutorial/24068668_WIA1002_Tutorial08.pdf) | [Lab 08](https://github.com/tianlongc/WIA1002_UM/tree/main/Lab/Lab%2008)            |
-| Recursion                        | [Tutorial 09](https://github.com/tianlongc/WIA1002_UM/blob/main/Tutorial/24068668_WIA1002_Tutorial09.pdf) | [Lab 09](https://github.com/tianlongc/WIA1002_UM/tree/main/Lab/Lab%2009)            |
-| Search and Sort                  | [Tutorial 10](https://github.com/tianlongc/WIA1002_UM/blob/main/Tutorial/24068668_WIA1002_Tutorial10.pdf) | [Lab 10](https://github.com/tianlongc/WIA1002_UM/tree/main/Lab/Lab%2010)            |
-| Binary Search Tree (BST)         | [Tutorial 11](https://github.com/tianlongc/WIA1002_UM/blob/main/Tutorial/24068668_WIA1002_Tutorial11.pdf) | [Lab 11](https://github.com/tianlongc/WIA1002_UM/tree/main/Lab/Lab%2011)            |
+| Topic                            | Tutorial                                                | Lab                            |
+|----------------------------------|---------------------------------------------------------|--------------------------------|
+| Object-Oriented Programming (OOP)| [Tutorial 01](Tutorial/24068668_WIA1002_Tutorial01.pdf) | [Lab 01](Lab/Lab%2001)         |
+| Generics                         | [Tutorial 02](Tutorial/24068668_WIA1002_Tutorial02.pdf) | [Lab 02](Lab/Lab%2002)         |
+| ADT and Bag                      | [Tutorial 03](Tutorial/24068668_WIA1002_Tutorial03.pdf) | [Lab 03](Lab/Lab%2003)         |
+| Singly Linked List               | [Tutorial 04](Tutorial/24068668_WIA1002_Tutorial04.pdf) | [Lab 04](Lab/Lab%2004)         |
+| Doubly Linked List               | [Tutorial 05](Tutorial/24068668_WIA1002_Tutorial05.pdf) | [Lab 05](Lab/Lab%2005)         |
+| Stack                            | [Tutorial 06](Tutorial/24068668_WIA1002_Tutorial06.pdf) | [Lab 06](Lab/Lab%2006)         |
+| Queue                            | [Tutorial 07](Tutorial/24068668_WIA1002_Tutorial07.pdf) | [Lab 07](Lab/Lab%2007/L7)      |
+| Priority Queue                   | [Tutorial 07b](Tutorial/24068668_WIA1002_Tutorial07b.pdf) | [Lab 07b](Lab/Lab%2007/L7b)  |
+| Graph                            | [Tutorial 08](Tutorial/24068668_WIA1002_Tutorial08.pdf) | [Lab 08](Lab/Lab%2008)         |
+| Recursion                        | [Tutorial 09](Tutorial/24068668_WIA1002_Tutorial09.pdf) | [Lab 09](Lab/Lab%2009)         |
+| Search and Sort                  | [Tutorial 10](Tutorial/24068668_WIA1002_Tutorial10.pdf) | [Lab 10](Lab/Lab%2010)         |
+| Binary Search Tree (BST)         | [Tutorial 11](Tutorial/24068668_WIA1002_Tutorial11.pdf) | [Lab 11](Lab/Lab%2011)         |
 
 ## 📝 Past Year Question
 HashMap-related questions can be ignored, as they are no longer part of the syllabus — but feel free to try them for your own learning and practice.
@@ -50,12 +50,16 @@ These past year questions are great for strengthening your foundational understa
 ---
 
 #### ⭐ Recommended Questions to Try
-- [WIA1002_2_2016 Q2 Bracket Matching using Array Stack and File Handling](PYQ/WIA1002_2_2016/Q2array)
-- [WIA1002_1_2017 Q3 Reversing a String using Array Stack](PYQ/WIA1002_1_2017/Q3)
-- [WIA1002_2_2019 Q3 Maze Backtracking using Linked List Stack and File Handling](PYQ/WIA1002_2_2019/Q3)
-- [WIA1002_1_2020 Q1 Generic Stack using Array](PYQ/WIA1002_1_2020/Q1/GenericStack.java)
-- [WIA1002_2_2020 Q2 Generic Queue using Circular Array](PYQ/WIA1002_1_2020/Q2/GenericQueue.java)
-- [WIA1002_2_2020 Q2 Generic Queue using Circular Linked List](PYQ/WIA1002_1_2020/Q2CLL/GenericQueue.java)
+These past-year questions are great practice for mastering `Stack` and `Queue` topics in Java:
+
+| Semester    | Question                                             | Concepts used               | Link                                                                |
+|-------------|------------------------------------------------------|-----------------------------|---------------------------------------------------------------------|
+| 2016 sem 2  | Bracket Matching                                     | `Array Stack`<br>`File Handling (Read File)` | [WIA1002_2_2016 Q2](PYQ/WIA1002_2_2016/Q2array)    |
+| 2017 sem 1  | Reversing a String                                   | `Array Stack`               | [WIA1002_1_2017 Q3](PYQ/WIA1002_1_2017/Q3)                          |
+| 2019 sem 2  | Maze Backtracking <br><div align="center">![Hard](https://img.shields.io/badge/🔥-Hard-red)</div> | `Linked List Stack`<br>`File Handling (Read File)`      | [WIA1002_2_2019 Q3](PYQ/WIA1002_2_2019/Q3)                                         |
+| 2020 sem 1  | Generic Stack                                        | `Array Stack`               | [WIA1002_1_2020 Q1](PYQ/WIA1002_1_2020/Q1/GenericStack.java)        |
+| 2020 sem 1  | Generic Queue                                        | `Circular Array`            | [WIA1002_1_2020 Q2](PYQ/WIA1002_1_2020/Q2/GenericQueue.java)        |
+| 2020 sem 1  | Generic Queue                                        | `Circular Linked List`      | [WIA1002_1_2020 Q2](PYQ/WIA1002_1_2020/Q2CLL/GenericQueue.java)     |
 
 ---
 
@@ -86,12 +90,17 @@ In fact, some questions explicity allow the use of Java Collection classes like 
 ---
 
 #### ⭐ Recommended Questions to Try
-- [WIA1002_2_2022 Q6 Full Linked List Graph Implementation](PYQ/WIA1002_2_2022/Q6)
-- [WIA1002_2_2024 Q42b Graph Adjacency Matrix and Depth-First Search(DFS)](PYQ/WIA1002_2_2024/Q42b)
-- [WIA1002_2_2025 Q4 Full ArrayList Graph Implementation](PYQ/WIA1002_2_2025/Q4)
+| Semester    | Question                                             | Concepts used               | Link                                                                |
+|-------------|------------------------------------------------------|-----------------------------|---------------------------------------------------------------------|
+| 2016 sem 2  | Full Graph Implementation                            | `Linked List`               | [WIA1002_2_2022 Q6](PYQ/WIA1002_2_2022/Q6)                         |
+| 2017 sem 1  | Graph Adjacency Matrix and Depth-First Search(DFS)   | `Array`<br>`Recursion`      | [WIA1002_2_2024 Q42b](PYQ/WIA1002_2_2024/Q42b)                      |
+| 2019 sem 2  | Full Graph Implementation                            | `ArrayList`                 | [WIA1002_2_2025 Q4](PYQ/WIA1002_2_2025/Q4)                          |
 
 > 💡 **Suggestion:**<br>
 > In most textbooks and lectures, adjacency lists in graph are commonly implemented using `LinkedList`. However, for exams, I generally prefer using `ArrayList` for its simplicity and ease of implementation. It makes the code faster to write and debug — ideal for exams or quick from-scratch implementations. That said, both approaches are valid — feel free to use whatever works best for you!
+
+#### ✨ Honourable Mention: [📂 WIA1002_2_2023](PYQ/WIA1002_2_2023)
+This question set is notoriously cutthroat — requiring deep logical reasoning and intense problem-solving. Personally, I consider it as the **most hellish paper** I have ever faced. 😵‍💫
 
 ---
 
@@ -101,7 +110,7 @@ In fact, some questions explicity allow the use of Java Collection classes like 
 |--------------|------------------------------------------|
 | 2021 Sem 2   | [📂 WIA1002_2_2021](PYQ/WIA1002_2_2021) |
 | 2022 Sem 2   | [📂 WIA1002_2_2022](PYQ/WIA1002_2_2022) |
-| 2023 Sem 2   | [📂 WIA1002_2_2023](PYQ/WIA1002_2_2023) |
+| 2023 Sem 2 <br><div align="center">![Hell](https://img.shields.io/badge/👹-Hell-crimson)</div>   | [📂 WIA1002_2_2023](PYQ/WIA1002_2_2023) |
 | 2024 Sem 2   | [📂 WIA1002_2_2024](PYQ/WIA1002_2_2024) |
 
 ---
@@ -110,15 +119,15 @@ In fact, some questions explicity allow the use of Java Collection classes like 
 This is a closed test paper but the question topics are listed as below:
 | Question | Topic                            | Subtopics / Focus Areas                                      |
 |----------|----------------------------------|---------------------------------------------------------------|
-| Q1       | Linked List                      | Singly Linked List, Doubly Linked List                        |
-| Q2       | Queue                            | Circular Array Implementation, Custom Priority Queue          |
-| Q3       | Search and Sort                  | Insertion Sort, Binary Search, File-Handling (Read File)      |
-| Q4       | Graph                            | From-scratch Graph Implementation, DFS using Stack/Recursion |
+| <div align="center">Q1</div>       | Linked List                      | `Singly Linked List`<br>`Doubly Linked List`                        |
+| <div align="center">Q2</div>       | Queue                            | `Circular Array` Implementation<br>Custom `Priority Queue`          |
+| <div align="center">Q3</div>       | Search and Sort                  | `Insertion Sort`<br>`Binary Search`<br>`File-Handling (Read File)`   |
+| <div align="center">Q4</div>       | Graph                            | From-scratch `Graph` Implementation<br> DFS using `Stack`/`Recursion` |
 
 ---
 #### ⚠️ **Sample Question and Answer Link (For Reference Purpose Only)**   
-| Semester     | Link                                                                 |
-|--------------|----------------------------------------------------------------------|
+| Semester     | Link                                     |
+|--------------|------------------------------------------|
 | 2025 Sem 2   |[📂 WIA1002_2_2025](/PYQ/WIA1002_2_2025) |
 
 ---
