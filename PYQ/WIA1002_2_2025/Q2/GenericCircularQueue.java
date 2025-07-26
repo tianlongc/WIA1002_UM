@@ -49,6 +49,13 @@ public class GenericCircularQueue<E>{
         rear = (rear + 1) % capacity;
         size++;
     }
+
+    public E peek(){
+        if (isEmpty()) {
+            throw new IllegalStateException("Queue underflows");
+        }
+        return queue[front];
+    }
     
     public E dequeue(){
         if (isEmpty()) {
