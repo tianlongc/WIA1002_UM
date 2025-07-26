@@ -68,7 +68,7 @@ public class GenericCircularQueue<E>{
         }
         StringBuilder sb = new StringBuilder();
         for (int i = front, count = 0; count < size; i = (i + 1) % capacity, count++) {
-            sb.append(queue[i] + " ");
+            sb.append(queue[i]).append(" ");
         }
         return sb.toString();
     }
