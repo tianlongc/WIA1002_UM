@@ -1,0 +1,30 @@
+# Sorted name list:
+ - АНТОНОВ
+ - DAVID
+ - ELIZABETH
+ - ГУРИН
+ - ИВАНОВ
+ - JAMES
+ - JENNIFER
+ - JOHN
+ - КОММОГОРОВ
+ - LINDA
+ - MARIA
+ - МАРИА
+ - МАРКОВ
+ - MICHAEL
+ - PATRICIA
+ - ПЕТРОВ
+ - ПУТИН
+ - ROBERT
+ - СТЕПАНОВ
+ - ВОЛКОВ
+
+# Search
+    Index of АНТОНОВ: 0
+    Index of MARKOV: -1
+    Index of МАРИА: 11
+    Index of ВОЛКОВ: 19
+
+# Longest name
+КОММОГОРОВ
