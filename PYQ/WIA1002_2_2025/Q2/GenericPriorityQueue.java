@@ -42,7 +42,16 @@ public class GenericPriorityQueue<E> implements Comparator<E>{
     public boolean isEmpty(){
         return size == 0;
     }
-    
+
+    /*  Insertion flow
+        1. Start from the rear index
+        2. While traversing backwards, compare each existing elements with the inserted element `e`
+           - If the existing element has higher priority
+             shift it one position to the right
+        3. Continue shifting until the correct insertion point is found
+        4. Insert the new element at that position
+        5. Update rear and size
+    */
     public void enqueue(E e){
         if (isFull()) {
             System.out.println("The Priority Queue is full! Dequeue " + dequeue());
@@ -60,6 +69,13 @@ public class GenericPriorityQueue<E> implements Comparator<E>{
         }
         rear = (rear + 1) % capacity;
         size++;
+    }
+
+    public E peek(){
+        if (isEmpty()) {
+            throw new IllegalStateException("Queue underflows");
+        }
+        return queue[front];
     }
     
     public E dequeue(){
@@ -83,7 +99,7 @@ public class GenericPriorityQueue<E> implements Comparator<E>{
         }
         StringBuilder sb = new StringBuilder();
         for (int i = front, count = 0; count < size; i = (i + 1) % capacity, count++) {
-            sb.append(queue[i] + " ");
+            sb.append(queue[i]).append(" ");
         }
         return sb.toString();
     }
