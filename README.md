@@ -53,7 +53,7 @@ These past year questions are great for strengthening your foundational understa
 These past-year questions are great practice for mastering `Stack` and `Queue` topics in Java:
 
 | Semester    | Question                                             | Concepts used               | Link                                                                |
-|-------------|------------------------------------------------------|-----------------------------|---------------------------------------------------------------------|
+|-------------|----------------------------------------------------|-----------------------------|---------------------------------------------------------------------|
 | 2016 sem 2  | Bracket Matching                                     | `Array Stack`<br>`File Handling (Read File)` | [WIA1002_2_2016 Q2](PYQ/WIA1002_2_2016/Q2array)    |
 | 2017 sem 1  | Reversing a String                                   | `Array Stack`               | [WIA1002_1_2017 Q3](PYQ/WIA1002_1_2017/Q3)                          |
 | 2019 sem 2  | Maze Backtracking <br><div align="center">![Hard](https://img.shields.io/badge/🔥-Hard-red)</div> | `Linked List Stack`<br>`File Handling (Read File)`      | [WIA1002_2_2019 Q3](PYQ/WIA1002_2_2019/Q3)                                         |
@@ -107,10 +107,10 @@ This question set is notoriously cutthroat — requiring deep logical reasoning 
 #### 📁 List of Question Sets
 
 | Semester     | Link                                     |
-|--------------|------------------------------------------|
+|:------------:|------------------------------------------|
 | 2021 Sem 2   | [📂 WIA1002_2_2021](PYQ/WIA1002_2_2021) |
 | 2022 Sem 2   | [📂 WIA1002_2_2022](PYQ/WIA1002_2_2022) |
-| 2023 Sem 2 <br><div align="center">![Hell](https://img.shields.io/badge/👹-Hell-crimson)</div>   | [📂 WIA1002_2_2023](PYQ/WIA1002_2_2023) |
+| 2023 Sem 2 <br>![Hell](https://img.shields.io/badge/👹-Hell-crimson) | [📂 WIA1002_2_2023](PYQ/WIA1002_2_2023) |
 | 2024 Sem 2   | [📂 WIA1002_2_2024](PYQ/WIA1002_2_2024) |
 
 ---
@@ -118,11 +118,11 @@ This question set is notoriously cutthroat — requiring deep logical reasoning 
 ### 📄 Format 3: Self-built Implementation and Application (2025 sem 2)
 This is a closed test paper but the question topics are listed as below:
 | Question | Topic                            | Subtopics / Focus Areas                                      |
-|----------|----------------------------------|---------------------------------------------------------------|
-| <div align="center">Q1</div>       | Linked List                      | `Singly Linked List`<br>`Doubly Linked List`                        |
-| <div align="center">Q2</div>       | Queue                            | `Circular Array` Implementation<br>Custom `Priority Queue`          |
-| <div align="center">Q3</div>       | Search and Sort                  | `Insertion Sort`<br>`Binary Search`<br>`File-Handling (Read File)`   |
-| <div align="center">Q4</div>       | Graph                            | From-scratch `Graph` Implementation<br> DFS using `Stack`/`Recursion` |
+|:--------:|----------------------------------|---------------------------------------------------------------|
+| Q1       | Linked List                      | `Singly Linked List`<br>`Doubly Linked List`                        |
+| Q2       | Queue                            | `Circular Array` Implementation<br>Custom `Priority Queue`          |
+| Q3       | Search and Sort                  | `Insertion Sort`<br>`Binary Search`<br>`File-Handling (Read File)`   |
+| Q4       | Graph                            | From-scratch `Graph` Implementation<br> DFS using `Stack`/`Recursion` |
 
 ---
 #### ⚠️ **Sample Question and Answer Link (For Reference Purpose Only)**   
