@@ -20,17 +20,20 @@ public class Main {
         SLL L1 = new SLL();
         SLL L2 = new SLL();
         
+        // L1: 1, 10, 20
         L1.addLast(1);
+        L1.addLast(10);
         L1.addLast(20);
-        L1.addLast(30);
         
-        L2.addLast(10);
+        // L2: 15, 25, 55
+        L2.addLast(15);
         L2.addLast(25);
-        L2.addLast(35);
+        L2.addLast(55);
         
         Node headL3 = merge(L1, L2);
+        System.out.println("Merged Linked List:");
         print(headL3);
-    }
+    }   
     
     public static Node merge(SLL L1, SLL L2){
         Node node1 = L1.head;
@@ -60,7 +63,7 @@ public class Main {
         /*
             links the remaining part of the other list directly to the merged list 
             without needing to iterate further
-        Assumption: Two sorted list are given
+            Assumption: Two sorted list are given
         */
         node3.next = (node1 != null) ? node1 : node2;
         
