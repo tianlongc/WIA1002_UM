@@ -10,9 +10,15 @@ package Q2;
  */
 
 /*
-    Question (a): Generic Array Implementation of Circular Queue
+    Question (a): Implement Circular Generic Queue using Array
+                - Methods: constructor, enqueue, dequeue, toString
+                - Maximum capacity is 8 and no resize
+                - Oldest elements will be replaced when the queue is full
 */
 
+/**
+ * @param <E> the generic type parameter named element
+ */
 public class GenericCircularQueue<E>{
     private E[] queue;
     private int front, rear, size, capacity;
@@ -43,7 +49,7 @@ public class GenericCircularQueue<E>{
     
     public void enqueue(E e){
         if (isFull()) {
-            System.out.println("The Queue is full! Dequeue " + dequeue());
+            System.out.println("Queue is full! Replaced " + dequeue());
         }
         queue[rear] = e;
         rear = (rear + 1) % capacity;
@@ -74,9 +80,15 @@ public class GenericCircularQueue<E>{
             return ""; // early exit
         }
         StringBuilder sb = new StringBuilder();
-        for (int i = front, count = 0; count < size; i = (i + 1) % capacity, count++) {
-            sb.append(queue[i]).append(" ");
+        // Method 1: Dequeue all elements
+        while(!isEmpty()){
+            sb.append(dequeue()).append(' ');
         }
+        
+        // Method 2: Traverse without dequeue
+        // for (int i = front, count = 0; count < size; i = (i + 1) % capacity, count++) {
+        //     sb.append(queue[i]).append(' ');
+        // }
         return sb.toString();
     }
 }
