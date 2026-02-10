@@ -1,0 +1,10 @@
+103,Carol,91.2
+118,Robert,85.6
+102,Bob,76.0
+115,Olivia,95.0
+117,Queenie,70.4
+122,Victor,82.9
+119,Sophia,89.9
+112,Liam,67.0
+111,Kate,92.1
+113,Mia,80.5
