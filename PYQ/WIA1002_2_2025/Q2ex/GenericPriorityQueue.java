@@ -10,9 +10,14 @@ package Q2ex;
  */
 
 /*
-    Question (c): Create a custom Priority Queue using generic array 
-                  circular queue based on (a).
+    Question (c): Reimplement (a) using a custom Priority Queue with a generic array 
+                  circular queue
+                  - Same capacity constraints
                   - Highest priority elements will be replaced when the queue is full
+                  - Priority is determined as follows:
+                    1. Alphabetical order of the first character (A highest, Z lowest)
+                    2. If the first character is the same, compare the numeric part in descending order
+                     (e.g., S12345678 has higher priority than S87654321)
 */
 import java.util.Comparator;
 
