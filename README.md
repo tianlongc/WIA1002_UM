@@ -1,5 +1,5 @@
 # WIA1002_UM
-This repository contains my solutions for the course WIA1002 Data Structure(DS) in Universiti of Malaya in Year 1 Sem 2. The programming language mainly used in this course used is *Java*
+This repository contains my solutions for the course WIA1002 Data Structure(DS) in University of Malaya in Year 1 Sem 2. The programming language mainly used in this course used is *Java*
 
 ![Java](https://img.shields.io/badge/Java-17%2B-orange?logo=openjdk) 
 ![License](https://img.shields.io/badge/License-MIT-green)
@@ -92,9 +92,10 @@ In fact, some questions explicity allow the use of Java Collection classes like 
 #### ⭐ Recommended Questions to Try
 | Semester    | Question                                             | Concepts used               | Link                                                                |
 |-------------|------------------------------------------------------|-----------------------------|---------------------------------------------------------------------|
-| 2022 sem 2  | Full Graph Implementation                            | `Linked List`               | [WIA1002_2_2022 Q6](PYQ/WIA1002_2_2022/Q6)                         |
+| 2022 sem 2  | Full Graph Implementation                            | `Linked List`               | [WIA1002_2_2022 Q6](PYQ/WIA1002_2_2022/Q6)                          |
+| 2022 sem 2  | Full Graph Implementation                            | `ArrayList`                 | [WIA1002_2_2022 Q6](PYQ/WIA1002_2_2022/Q6ex)                        |
 | 2024 sem 2  | Graph Adjacency Matrix and Depth-First Search(DFS)   | `Array`<br>`Recursion`      | [WIA1002_2_2024 Q42b](PYQ/WIA1002_2_2024/Q42b)                      |
-| 2025 sem 2  | Full Graph Implementation                            | `ArrayList`                 | [WIA1002_2_2025 Q4](PYQ/WIA1002_2_2025/Q4)                          |
+| 2025 sem 2  | Full Graph Implementation                            | `Linked List`               | [WIA1002_2_2025 Q4](PYQ/WIA1002_2_2025/Q4)                          |
 
 > 💡 **Suggestion:**<br>
 > In most textbooks and lectures, adjacency lists in graph are commonly implemented using `LinkedList`. However, for exams, I generally prefer using `ArrayList` for its simplicity and ease of implementation. It makes the code faster to write and debug — ideal for exams or quick from-scratch implementations. That said, both approaches are valid — feel free to use whatever works best for you!
@@ -122,7 +123,7 @@ This is a closed test paper but the question topics are listed as below:
 | Q1       | Linked List                      | `Singly Linked List`<br>`Doubly Linked List`                        |
 | Q2       | Queue                            | `Circular Array` Implementation<br>Custom `Priority Queue`          |
 | Q3       | Search and Sort                  | `Insertion Sort`<br>`Binary Search`<br>`File-Handling (Read File)`   |
-| Q4       | Graph                            | From-scratch `Graph` Implementation<br> DFS using `Stack`/`Recursion` |
+| Q4       | Graph                            | From-scratch `Graph` Implementation<br>                       |
 
 ---
 #### ⚠️ **Sample Question and Answer Link (For Reference Purpose Only)**   
@@ -137,7 +138,8 @@ Feel free to fork and submit a pull request to improve my content. Thanks!
 
 # 🧷 References 
 Deep Apologies! Sorry that I can't remember all of the names of seniors that help me throughout this course but here are the repositories I usually refer to
-- https://github.com/LimJY03/WIA1002_UM
-- https://github.com/szeyu/WIA1002-Collections
-- https://github.com/The-Missing-UMCS/UM-WIA1002
-- https://github.com/samweihong/WIA1002-Data-Structure
+- [LimJY03/WIA1002_UM](https://github.com/LimJY03/WIA1002_UM)
+- [szeyu/WIA1002-Collections](https://github.com/szeyu/WIA1002-Collections)
+- [The-Missing-UMCS/UM-WIA1002](https://github.com/The-Missing-UMCS/UM-WIA1002)
+- [samweihong/WIA1002-Data-Structure](https://github.com/samweihong/WIA1002-Data-Structure)
+

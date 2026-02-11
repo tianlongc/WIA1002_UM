@@ -7,181 +7,191 @@ package Q4;
 /**
  *
  * @author tianlongc
- * ArrayList Implementation of Graph using Adjacency List
  */
 
 /*
-    I prefer ArrayList as Adjacency List for quick graph implementation
-    <!> Any valid approach is acceptable as long as the output is correct no worries :)
+    Implement the following utility methods
+    1. getSize
+    2. getVertex
+    3. hasEdge
+    4. getNeighbours
+    5. printEdges
 */
-
 import java.util.ArrayList;
 
-class Vertex {
-    String point;
-    String type;
-    ArrayList<Edge> edges;
-    
-    public Vertex(){
-        this(null, null);
-    }
-    
-    public Vertex(String point, String type){
-        this.point = point;
-        this.type = type;
-        this.edges = new ArrayList<>();
-    }
-}
+public class RoutingGraph<T extends Comparable<T>, N extends Comparable<N>>{
+    private final double x;
+    private Vertex<T,N> head;
+    private int size;
 
-public class RoutingGraph{
-    final static double y = 2.0; // assume y = 2.0
-    private ArrayList<Vertex> vertices;
-    
     public RoutingGraph(){
-        this.vertices = new ArrayList<>();
+        this(2.0); // Assume x = 2 for example
     }
-    
+
+    public RoutingGraph(double x){
+        this.head = null;
+        this.size = 0;
+        this.x = x;
+    }
+
     public int getSize(){
-        return vertices.size();
+        return size;
     }
-    
-    public String getVertex(int i){
-        if (i < 0 || i >= vertices.size()) {
+
+    public T getVertex(int pos){
+        if (pos < 0 || pos >= size) {
             return null;
         }
-        return vertices.get(i).point;
-    }
-    
-    public Vertex getVertex(String point){
-        for (Vertex v : vertices) {
-            if (v.point.equals(point)) {
-                return v;
-            }
+        Vertex<T,N> current = head;
+        for (int i = 0; i < pos; i++) {
+            current = current.nextVertex;
         }
-        return null;
+        return current.point;
     }
-    
-    public void addEdge(String source, String destination, double distance){
-        Vertex src = getVertex(source);
-        Vertex dst = getVertex(destination);
-        double speed;
-        
-        if (src.type.equals("Housing Area") && dst.type.equals("Housing Area")) {
-            speed = y;
-        }else if ((src.type.equals("Housing Area") && dst.type.equals("Food Area")) 
-                || (src.type.equals("Food Area") && dst.type.equals("Housing Area"))) {
-            speed = y;
-        }else if ((src.type.equals("Food Area") && dst.type.equals("Food Area"))){
-            speed = 1.25 * y;
-        }else if ((src.type.equals("Food Area") && dst.type.equals("Industry Area")) 
-                || (src.type.equals("Industry Area") && dst.type.equals("Food Area"))) {
-            speed = 1.5 * y;
-        }else{
-            speed = 3 * y;
-        }
-        src.edges.add(new Edge(dst, distance, speed));
-    }
-    
-    public boolean hasEdge(String source, String destination){
-        if (vertices.isEmpty()) {
+
+    public boolean hasEdge(T source, T destination){
+        if (head == null) {
             return false;
         }
-        Vertex src = getVertex(source);
-        for (Edge e: src.edges) {
-            if (e.destination.point.equals(destination)) {
+        for (Vertex<T,N> sourceVertex = head; sourceVertex != null; sourceVertex = sourceVertex.nextVertex) {
+            if (sourceVertex.point.compareTo(source) == 0) {
+                for (Edge<T,N> currentEdge = sourceVertex.firstEdge; currentEdge != null; currentEdge = currentEdge.nextEdge) {
+                    if (currentEdge.toVertex.point.compareTo(destination) == 0) {
+                       return true; 
+                    }
+                }
+            }
+        }
+        return false;
+    }
+
+    public ArrayList<T> getNeighbours(T v){
+        ArrayList<T> list = new ArrayList<>();
+        for (Vertex<T,N> current = head; current != null; current = current.nextVertex) {
+            if (current.point.compareTo(v) == 0) {
+                for (Edge<T,N> currentEdge = current.firstEdge; currentEdge != null; currentEdge = currentEdge.nextEdge) {
+                    list.add(currentEdge.toVertex.point);
+                }
+            }
+        }
+        return list;
+    }
+
+    public void printEdges(){
+        System.out.println("\nPrint all edges :");
+        for (Vertex<T,N> temp = head; temp != null; temp = temp.nextVertex) {
+            System.out.printf("# %s : ", temp.point);
+            for (Edge<T,N> currentEdge = temp.firstEdge; currentEdge != null; currentEdge = currentEdge.nextEdge) {
+                System.out.printf("[%s, %s (speed=%.1f, distance=%.1f)] ", temp.point, currentEdge.toVertex.point, currentEdge.speed, currentEdge.distance);
+            }
+            System.out.println("");
+        }
+    }
+
+    public boolean addVertex(T point, T type){
+        if (hasVertex(point)){
+            return false;
+        }
+        Vertex<T,N> newVertex = new Vertex<>(point, type, null);
+        if (head == null) {
+            head = newVertex;
+        }else{
+            Vertex<T,N> previous = head;
+            for (Vertex<T,N> temp = head; temp != null; temp = temp.nextVertex){
+                previous = temp;
+            }
+            previous.nextVertex = newVertex;
+        }
+        size++;
+        return true;
+    }
+
+    public boolean hasVertex(T point){
+        if (head == null) {
+            return false;
+        }
+        for (Vertex<T,N> temp = head; temp != null; temp = temp.nextVertex) {
+            if (temp.point.compareTo(point) == 0) {
                 return true;
             }
         }
         return false;
     }
-    
-    public ArrayList<String> getNeighbours(String point){
-        Vertex v = getVertex(point);
-        ArrayList<String> neighbours = new ArrayList<>();
-        for (Edge e : v.edges) {
-            neighbours.add(e.destination.point);
+
+    public boolean addEdge(T source, T destination, N distance){
+        if (head == null) {
+            return false;
         }
-        return neighbours;
-    }
-    
-    public void printEdges(){
-        System.out.println("\nPrint all edges :");
-        for (Vertex v : vertices) {
-            System.out.printf("# %s : ", v.point);
-            for (Edge e : v.edges) {
-                System.out.printf("[%s,%s(speed=", v.point, e.destination.point);
-                System.out.print(e.speed + " , distance=" + e.distance + ")] ");
-            }
-            System.out.println("");
+        if (!hasVertex(source) || !hasVertex(destination)) {
+            return false;
         }
-        System.out.println("");
-    }
-    
-    public void addVertex(String point, String type){
-        this.vertices.add(new Vertex(point, type));
-    }
-    
-    public int getIndex(String point){
-        for (int i = 0; i < vertices.size(); i++) {
-            if (vertices.get(i).point.equals(point)) {
-                return i;
-            }
-        }
-        return -1;
-    }
-    
-    public ArrayList<ArrayList<String>> getAllPaths(String source, String destination){
-        int src = getIndex(source);
-        int dest = getIndex(destination);
-        
-        boolean[] visited = new boolean[vertices.size()];
-        ArrayList<String> path = new ArrayList<>();
-        ArrayList<ArrayList<String>> allPaths = new ArrayList<>();
-        
-        path.add(source);
-        dfs(src, dest, visited, path, allPaths);
-        
-        return allPaths;
-    }
-    
-    private void dfs(int src, int dest, boolean[] visited, ArrayList<String> path, ArrayList<ArrayList<String>> allPaths){
-        visited[src] = true;
-        
-        if (src == dest) {
-            allPaths.add(new ArrayList<>(path));
-        }else{
-            Vertex v = vertices.get(src);
-            for (Edge e: v.edges) {
-                int nextIndex = getIndex(e.destination.point);
-                if (!visited[nextIndex]) {
-                    path.add(e.destination.point);
-                    dfs(nextIndex, dest, visited, path, allPaths);
-                    path.remove(path.size()-1); // backtrack
-                }
-            }
-        }
-        visited[src] = false;
-    }
-    
-    public double getDistance(String source, String destination){
-        for (Vertex v : vertices) {
-            if (v.point.equals(source)) {
-                for (Edge e: v.edges) {
-                    if (e.destination.point.equals(destination)) {
-                        return e.distance;
+        for (Vertex<T,N> sourceVertex = head; sourceVertex != null; sourceVertex = sourceVertex.nextVertex) {
+            if (sourceVertex.point.compareTo(source) == 0) {
+                for (Vertex<T,N> destinationVertex = head; destinationVertex != null; destinationVertex = destinationVertex.nextVertex) {
+                    if (destinationVertex.point.compareTo(destination) == 0) {
+                        double speed;
+                        if (sourceVertex.type.equals("Residential Area") && destinationVertex.type.equals("Residential Area")) {
+                            speed = x;
+                        }else if ((sourceVertex.type.equals("Residential Area") && destinationVertex.type.equals("Commercial Centre")) ||
+                                  (sourceVertex.type.equals("Commercial Centre") && destinationVertex.type.equals("Residential Area"))) {
+                            speed = 1.5 * x;
+                        }else if ((sourceVertex.type.equals("Residential Area") && destinationVertex.type.equals("School Area")) ||
+                                  (sourceVertex.type.equals("School Area") && destinationVertex.type.equals("Residential Area"))) {
+                            speed = 1.7 * x;
+                        }else if ((sourceVertex.type.equals("Commercial Centre") && destinationVertex.type.equals("Commercial Centre"))){
+                            speed = 2.5 * x;
+                        }else if ((sourceVertex.type.equals("Commercial Centre") && destinationVertex.type.equals("School Area")) ||
+                                  (sourceVertex.type.equals("School Area") && destinationVertex.type.equals("Commercial Centre"))) {
+                            speed = 2.0 * x;
+                        }else{
+                            speed = 1.2 * x;
+                        }
+                        Edge<T,N> currentEdge = sourceVertex.firstEdge;
+                        Edge<T,N> newEdge = new Edge<>(destinationVertex, distance, speed, currentEdge);
+                        sourceVertex.firstEdge = newEdge;
+                        return true;
                     }
                 }
             }
         }
-        return 0.0;
+        return false;
     }
-    
-    public double getSpeed(String source, String destination){
-        for (Vertex v : vertices) {
-            if (v.point.equals(source)) {
-                for (Edge e: v.edges) {
-                    if (e.destination.point.equals(destination)) {
-                        return e.speed;
+
+    public boolean addBidirectedEdge(T source, T destination, N distance){
+        return addEdge(source, destination, distance) && addEdge(destination, source, distance);
+    }
+
+    public N getDistance(T source, T destination) {
+        if (head == null) {
+            return null;
+        }
+        if (!hasVertex(source) || !hasVertex(destination)) {
+            return null;
+        }
+        for (Vertex<T,N> sourceVertex = head; sourceVertex != null; sourceVertex = sourceVertex.nextVertex) {
+            if (sourceVertex.point.compareTo(source) == 0) {
+                for (Edge<T,N> currentEdge = sourceVertex.firstEdge; currentEdge != null; currentEdge = currentEdge.nextEdge) {
+                    if (currentEdge.toVertex.point.compareTo(destination) == 0) {
+                        return currentEdge.distance;
+                    }
+                }
+            }
+        }
+        return null;
+    }
+
+    public double getSpeed(T source, T destination){
+        if (head == null) {
+            return 0.0;
+        }
+        if (!hasVertex(source) || !hasVertex(destination)) {
+            return 0.0;
+        }
+        for (Vertex<T,N> sourceVertex = head; sourceVertex != null; sourceVertex = sourceVertex.nextVertex) {
+            if (sourceVertex.point.compareTo(source) == 0) {
+                for (Edge<T,N> currentEdge = sourceVertex.firstEdge; currentEdge != null; currentEdge = currentEdge.nextEdge) {
+                    if (currentEdge.toVertex.point.compareTo(destination) == 0) {
+                        return currentEdge.speed;
                     }
                 }
             }

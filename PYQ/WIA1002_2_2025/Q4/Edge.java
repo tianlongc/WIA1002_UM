@@ -8,18 +8,38 @@ package Q4;
  *
  * @author tianlongc
  */
-public class Edge{
-    Vertex destination;
-    double distance;
-    double speed;
+class Vertex<T extends Comparable<T>, N extends Comparable<N>>{
+    T point;
+    T type;
+    Vertex<T,N> nextVertex;
+    Edge<T,N> firstEdge;
     
-    public Edge(){
-        this(null, 0.0, 0.0);
+    public Vertex(){
+        this(null, null, null);
     }
     
-    public Edge(Vertex destination, double distance, double speed){
-        this.destination = destination;
+    public Vertex(T point, T type, Vertex<T,N> nextVertex){
+        this.point = point;
+        this.type = type;
+        this.nextVertex = nextVertex;
+        this.firstEdge = null;
+    }
+}
+
+public class Edge<T extends Comparable<T>, N extends Comparable<N>>{
+    Vertex<T,N> toVertex;
+    N distance;
+    Double speed;
+    Edge<T,N> nextEdge;
+    
+    public Edge(){
+        this(null, null, null, null);
+    }
+    
+    public Edge(Vertex<T,N> toVertex, N distance, Double speed, Edge<T,N> nextEdge){
+        this.toVertex = toVertex;
         this.distance = distance;
         this.speed = speed;
+        this.nextEdge = nextEdge;
     }
 }

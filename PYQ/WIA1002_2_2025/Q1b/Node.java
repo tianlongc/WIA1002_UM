@@ -15,7 +15,7 @@ public class Node {
     
     public Node(char letter){
         this.letter = letter;
-        this.prev = prev;
-        this.next = next;
+        this.prev = null;
+        this.next = null;
     }
 }

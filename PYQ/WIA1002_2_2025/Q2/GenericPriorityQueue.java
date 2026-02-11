@@ -10,11 +10,20 @@ package Q2;
  */
 
 /*
-    Question (b): Create a custom Priority Queue using generic array 
-                  circular queue based on (a).
+    Question (c): Reimplement (a) using a custom Priority Queue with a generic array 
+                  circular queue
+                  - Same capacity constraints
+                  - Highest priority elements will be replaced when the queue is full
+                  - Priority is determined as follows:
+                    1. Alphabetical order of the first character (A highest, Z lowest)
+                    2. If the first character is the same, compare the numeric part in descending order
+                     (e.g., S12345678 has higher priority than S87654321)
 */
 import java.util.Comparator;
 
+/**
+ * @param <E> the generic type parameter named element
+ */
 public class GenericPriorityQueue<E> implements Comparator<E>{
     private E[] queue;
     private int front, rear, size, capacity;
@@ -54,7 +63,7 @@ public class GenericPriorityQueue<E> implements Comparator<E>{
     */
     public void enqueue(E e){
         if (isFull()) {
-            System.out.println("The Priority Queue is full! Dequeue " + dequeue());
+            System.out.println("PriorityQueue is full! Replaced " + dequeue());
         }
         if (isEmpty()) {
             queue[rear] = e;
@@ -73,14 +82,14 @@ public class GenericPriorityQueue<E> implements Comparator<E>{
 
     public E peek(){
         if (isEmpty()) {
-            throw new IllegalStateException("Queue underflows");
+            throw new IllegalStateException("PriorityQueue underflows");
         }
         return queue[front];
     }
     
     public E dequeue(){
         if (isEmpty()) {
-            throw new IllegalStateException("Queue underflows");
+            throw new IllegalStateException("PriorityQueue underflows");
         }
         E temp = queue[front];
         queue[front] = null; // dereference
@@ -98,9 +107,15 @@ public class GenericPriorityQueue<E> implements Comparator<E>{
             return ""; // early exit
         }
         StringBuilder sb = new StringBuilder();
-        for (int i = front, count = 0; count < size; i = (i + 1) % capacity, count++) {
-            sb.append(queue[i]).append(" ");
+        // Method 1: Dequeue all elements
+        while(!isEmpty()){
+            sb.append(dequeue()).append(' ');
         }
+        
+        // Method 2: Traverse without dequeue
+        // for (int i = front, count = 0; count < size; i = (i + 1) % capacity, count++) {
+        //     sb.append(queue[i]).append(' ');
+        // }
         return sb.toString();
     }
     

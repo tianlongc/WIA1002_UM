@@ -29,3 +29,6 @@ nbproject/
 build/
 nbbuild/
 dist/
+
+# VS Code Output Folder
+out/
